@@ -2,16 +2,21 @@ import React from 'react';
 import './Navbar.css';
 import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from "react";
+import MobileNav from './MobileNav/MobileNav';
 
 const Navbar = () => {
 
-    const[click,setClick] = useState(false);
-    const handleClick =()=>{
-        setClick(!click);
+
+    const[openMenu,setOpenMenu]=useState(false);
+
+    const toggleMenu = ()=>{
+        setOpenMenu(!openMenu);
+
     }
 
   return (
     <>
+    <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
     <nav className='nav-wrapper'>
         <div className="nav-content">
             <img className='logo' src='../assets/logo.jpg' alt=''/>
@@ -38,13 +43,11 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            <div className="hamburger" onClick={handleClick}>
-        {click ? 
-        (<FaTimes size={20} style={{color:"#fff"}}/>) 
-        : (<FaBars size={20} style={{color:"#fff"}}/>)
-        }
-        
-    </div>
+          <button class='menu-btn' onClick={toggleMenu}>
+            <span class={"material-symbols-outlined"} style = {{fontSize :"1.8rem"}}>
+                {openMenu?"close":"menu"}
+            </span>
+            </button>
         </div>
     </nav>
     </>
