@@ -1,7 +1,7 @@
 import React from 'react'
 import './WorkExperience.css'
-import WORK_EXPERIENCE_DATA from './data'
 import ExperienceCard from './ExperienceCard/ExperienceCard'
+import WORK_EXPERIENCE_DATA from './WorkExperiencedata'
 
 const WorkExperience = () => {
   return (
@@ -10,11 +10,8 @@ const WorkExperience = () => {
         <h2>Work Experience</h2>
 
         <div className="experience-content">
-            {WORK_EXPERIENCE_DATA.map((item)=>{
-               <ExperienceCard key={item.title} details ={item}/>
-                
-            })}
-            
+          
+
            
         </div>
     </section>
