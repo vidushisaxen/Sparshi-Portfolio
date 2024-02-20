@@ -1,4 +1,5 @@
 const WORK_EXPERIENCE_DATA=[
+    
     {
         title:"Executive Engineer at Denso India Pvt. Ltd",
         date:"October 2022 - Present ",
