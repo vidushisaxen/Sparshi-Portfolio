@@ -10,9 +10,7 @@ const WorkExperience = () => {
         <h2>Work Experience</h2>
 
         <div className="experience-content">
-          
 
-           
         </div>
     </section>
     </>
