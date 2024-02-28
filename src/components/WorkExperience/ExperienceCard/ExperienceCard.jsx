@@ -16,6 +16,7 @@ const ExperienceCard = ({details}) => {
         </ul>
     </div>
     </>
+    
   )
 }
 
