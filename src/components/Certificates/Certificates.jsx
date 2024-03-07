@@ -1,11 +1,11 @@
 import React from 'react'
 import './Certificates.css';
 import CertificateCard from './CertificateCard/CertificateCard';
-import CertificateData from './Certificatedata';
+import CertificateData from '../Certificatedata';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
-const Certificates = () => {
+const Certificates = () => { 
   return (
    <>
    <Navbar/>
@@ -16,6 +16,7 @@ const Certificates = () => {
             return(
                 <CertificateCard
                 key={ind}
+                img ={val.img}
                 title={val.title}
                 date={val.date}
                 issue={val.issue}

@@ -5,12 +5,14 @@ const CertificateCard = (props) => {
   return (
     <>
     <div className="certificate-data-container">
+      <img src={props.img}></img>
         <h3>{props.title}</h3>
-        <div className="issue-date">
-            {props.date}
-            {props.issue}
-        </div>
-    </div>
+        
+            <p><b>Issued on: </b>{props.date}</p>
+            <p><b>Issued by: </b>{props.issue}</p>
+       
+        <button>View</button>
+    </div> 
     </>
   )
 }

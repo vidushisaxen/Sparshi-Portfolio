@@ -1,7 +1,20 @@
 .certificate-data-container{
     border: 2px solid white;
     display: flex;
-    flex-direction: column;
-    padding: 30px;
+    flex-direction: column !important;
+    padding: 20px;
     border-radius: 20px;
+    width: 400px;
+}
+.certificate-data-container img{
+   height: 200px;
+}
+.certificate-data-container h3{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+.certificate-data-container p{
+    font-size: 1rem;
+    padding: 10px;
 }
