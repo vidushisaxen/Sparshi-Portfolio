@@ -1,10 +1,10 @@
 .certificate-data-container{
-    border: 2px solid white;
     display: flex;
     flex-direction: column !important;
-    padding: 20px;
-    border-radius: 20px;
-    width: 400px;
+    padding: 10px;
+    width: 350px;
+    margin: 20px;
+    box-shadow: #a993fe 0px 2px 4px 0px, #a993fe 0px 2px 16px 0px;
 }
 .certificate-data-container img{
    height: 200px;
@@ -17,4 +17,27 @@
 .certificate-data-container p{
     font-size: 1rem;
     padding: 10px;
+}
+.certificate-data-container button{
+    width: 90px;
+    height: 40px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #a993fe;
+    color: #a993fe;
+    background: transparent;
+    
+}
+.certificate-data-container button a{
+    color: #a993fe;
+    text-decoration: none;
+}
+.certificate-data-container button:hover{
+    background-color: #a993fe;
+    color: #fff;
+}
+.certificate-data-container button a:hover{
+    color: #fff;
 }

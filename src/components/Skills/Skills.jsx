@@ -6,7 +6,7 @@ import Footer from '../Footer';
 const Skills = () => {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <section className='skills-container'>
         <h2>Technical Proficiency</h2>
 

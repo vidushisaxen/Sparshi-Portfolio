@@ -20,6 +20,7 @@ const Certificates = () => {
                 title={val.title}
                 date={val.date}
                 issue={val.issue}
+                link={val.link}
                 />
             )
         })}

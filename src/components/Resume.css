@@ -1,0 +1,46 @@
+.resume-container{
+    margin: 4rem 0;
+    position: relative;
+}
+.resume-container h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+    margin-left: 1rem;
+}
+.resume-content{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.resume-content img{
+    height: 500px;
+    border: 1px solid #a993fe;
+    padding: 10px;
+}
+.resume-content button{
+    width: 200px;
+    height: 50px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #a993fe;
+    color: #a993fe;
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.resume-content button a{
+    color: #a993fe;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.resume-content button:hover{
+    background-color: #a993fe;
+    color: #fff;
+}
+.resume-content button a:hover{
+    color: #fff;
+}

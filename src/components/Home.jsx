@@ -5,6 +5,7 @@ import Hero from './Hero/Hero';
 import Skills from './Skills/Skills';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Resume from './Resume';
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
     <Navbar/>
     <div className="container">
         <Hero/>
+        <Resume/>
         <Skills/>
+        
     </div>
     </>
   )

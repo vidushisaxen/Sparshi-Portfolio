@@ -11,7 +11,7 @@ const CertificateCard = (props) => {
             <p><b>Issued on: </b>{props.date}</p>
             <p><b>Issued by: </b>{props.issue}</p>
        
-        <button>View</button>
+            <a href={props.link} target='_blank'><button>View</button></a>
     </div> 
     </>
   )
