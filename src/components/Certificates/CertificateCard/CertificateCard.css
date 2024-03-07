@@ -1,0 +1,7 @@
+.certificate-data-container{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+}

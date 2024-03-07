@@ -1,9 +1,12 @@
 import React from 'react'
 import './Skills.css';
+import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 const Skills = () => {
   return (
     <>
+    <Navbar/>
     <section className='skills-container'>
         <h2>Technical Proficiency</h2>
 
@@ -33,6 +36,7 @@ const Skills = () => {
             
         </div>
     </section>
+    <Footer/>
     </>
   )
 }

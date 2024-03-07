@@ -10,6 +10,7 @@ const WORK_EXPERIENCE_DATA=[
             "effective working insurance by line control activities",
             "eport sharing and action initiation for improvement",
         ]
+        
     },
     {
         title:"Business Development Associate at Houselett",

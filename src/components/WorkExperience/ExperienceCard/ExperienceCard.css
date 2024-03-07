@@ -1,0 +1,14 @@
+.work-experience-card{
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px;
+    
+}
+.work-experience-card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: #362a64 0px 48px 100px 0px;
+}

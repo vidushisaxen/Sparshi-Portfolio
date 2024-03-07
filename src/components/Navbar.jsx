@@ -3,6 +3,7 @@ import './Navbar.css';
 import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from "react";
 import MobileNav from './MobileNav/MobileNav';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -23,24 +24,36 @@ const Navbar = () => {
 
 
             <ul>
+                <Link to='/'>
                 <li>
                     <a className='menu-item'>Home</a>
                 </li>
+                </Link>
+                <Link to='/skills'>
                 <li>
                 <a className='menu-item'>Skills</a>
                 </li>
+                </Link>
+                <Link to='/work'>
                 <li>
                 <a className='menu-item'>Work Experience</a>
                 </li>
+                </Link>
+                <Link to='/projects'>
                 <li>
                 <a className='menu-item'>Projects</a>
                 </li>
+                </Link>
+                <Link to='/certificates'>
                 <li>
                 <a className='menu-item'>Certifications</a>
                 </li>
+                </Link>
+                <Link to='/contact'>
                 <li>
                 <a className='menu-item'>Contact</a>
                 </li>
+                </Link>
             </ul>
 
           <button class='menu-btn' onClick={toggleMenu}>

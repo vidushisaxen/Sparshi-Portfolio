@@ -1,16 +1,15 @@
-.experience-container{
+.certificate-container{
     margin: 4rem 0;
     position: relative;
 }
-.experience-container h2{
+.certificate-container h2{
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 3rem;
 }
-.experience-content{
+.certificate-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
- 
