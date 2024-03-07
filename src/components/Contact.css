@@ -54,4 +54,17 @@
     text-decoration: none;
 }
 
+@media (max-width:600px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea{
+     width: 300px;
+    }
+    .contact-container-left img{
+        height: 300px;
+    }
+}
+
 

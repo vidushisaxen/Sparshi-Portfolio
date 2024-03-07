@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='footer-container'>
             {/* <div className='location'>
                 <FaHome size={20} style={{color:"white", marginRight:"1rem"}}/>
-           <div>
+            <div>
             <p>Haridwar, Uttarakhand, India.</p>
             </div>
          </div> */}

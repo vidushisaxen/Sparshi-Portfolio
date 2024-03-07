@@ -6,7 +6,7 @@
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
-    margin-left: 1rem;
+    margin-left: 1rem; 
 }
 .resume-content{
     display: flex;
@@ -43,4 +43,19 @@
 }
 .resume-content button a:hover{
     color: #fff;
+}
+
+@media (max-width:600px){
+    .resume-container h2{
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .resume-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .resume-content button{
+        margin-left: 10%;
+    }
+
 }
