@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import Circular from './components/Circular';
 
 function App() {
   return(
@@ -24,6 +25,7 @@ function App() {
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/footer' element={<Footer/>}/>
       <Route path='/resume' element={<Resume/>}/>
+      <Route path='/circular' element={<Circular/>}/>
 
     </Routes>
     </>

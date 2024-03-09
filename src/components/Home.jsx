@@ -6,6 +6,7 @@ import Skills from './Skills/Skills';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Resume from './Resume';
+import Circular from './Circular';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Hero/>
         <Resume/>
         <Skills/>
+        <Circular/>
         
     </div>
     </>
