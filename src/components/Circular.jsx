@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Circular.css'
-
+ 
 const Circular = () => {
   useEffect(() => {
     const adjustMenuItems = () => {
