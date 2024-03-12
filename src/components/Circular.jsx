@@ -12,6 +12,7 @@ const Circular = () => {
       }
     };
 
+    
     adjustMenuItems(); // Initial adjustment when component mounts
 
     // Optionally, you may want to adjust the menu items on window resize
