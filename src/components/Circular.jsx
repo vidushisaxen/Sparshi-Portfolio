@@ -13,16 +13,18 @@ const Circular = () => {
     };
 
     
-    adjustMenuItems(); // Initial adjustment when component mounts
+    adjustMenuItems(); 
 
-    // Optionally, you may want to adjust the menu items on window resize
+
+    
+   
     window.addEventListener('resize', adjustMenuItems);
 
     return () => {
-      // Clean up the event listener when the component unmounts
+      
       window.removeEventListener('resize', adjustMenuItems);
     };
-  }, []); // Empty dependency array ensures this effect runs only once after initial render
+  }, []); 
 
   return (
     <div className="circular-container">
