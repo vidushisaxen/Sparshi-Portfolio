@@ -14,9 +14,6 @@ const Circular = () => {
 
     
     adjustMenuItems(); 
-
-
-    
    
     window.addEventListener('resize', adjustMenuItems);
 
