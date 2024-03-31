@@ -11,8 +11,6 @@ const Circular = () => {
         items[i].style.top = (40 + 35 * Math.sin(-0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
       }
     };
-
-    
     adjustMenuItems(); 
    
     window.addEventListener('resize', adjustMenuItems);
