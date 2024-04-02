@@ -10,8 +10,6 @@ const Resume = () => {
   <div className="resume-content">
     <img src={resume}>
     </img>
-
-    
     <a href='https://drive.google.com/file/d/1GeLJbZpARHhxizvxzaBCFf_nRqheW9sB/view?usp=drive_link'><button>View Resume</button></a>
   </div>
   </div>
