@@ -58,7 +58,6 @@ const Circular = () => {
           </a>
 
         </div>
-
       </div>
     </div>
   );
