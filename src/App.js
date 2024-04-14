@@ -26,7 +26,6 @@ function App() {
       <Route path='/footer' element={<Footer/>}/>
       <Route path='/resume' element={<Resume/>}/>
       <Route path='/circular' element={<Circular/>}/>
-
     </Routes>
     </>
   )
